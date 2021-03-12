@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Quick Flash</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Quick Flash!</h1>
+    
+    <p>
+      How good is your memory!
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">stop</button>
+    <p1 id="livesText">
+      Lives: <p1 id="lives">3</p1> 
+    </p1>
+    <p1 id="levelText">
+      Level: <p1 id="level">1</p1>
+    </p1>
+    
+    <div class="endlessCheckBox" >
+      <input type="checkbox" id="endlessCheckBox">
+      <label>Endless Mode</label>
+    </div>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)"></button>
+      <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone()" onclick="guess(2)"></button>
+      <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone()" onclick="guess(3)"></button>
+      <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone()" onclick="guess(4)"></button>
+      <button id="button5" onmousedown="startTone(5)" onmouseup="stopTone()" onclick="guess(5)"></button>
+      <button id="button6" onmousedown="startTone(6)" onmouseup="stopTone()" onclick="guess(6)"></button>
+      <button id="button7" onmousedown="startTone(7)" onmouseup="stopTone()" onclick="guess(7)"></button>
+      <button id="button8" onmousedown="startTone(8)" onmouseup="stopTone()" onclick="guess(8)"></button>
+      <button id="button9" onmousedown="startTone(9)" onmouseup="stopTone()" onclick="guess(9)"></button>
+    </div>
+    
+    <div class="scoreBoard">
+      <ul id="scoreBoard">
+        <li style="font-size: 26pt;font-weight: 600;">-----------------Scores-----------------</li>
+      </ul>
+    </div>
+    
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

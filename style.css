@@ -1,0 +1,133 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #111;
+  color: white;
+}
+
+h1 {
+  font-style: italic;
+  color: #40E0D0;
+  font-family: verdana, arial, sans-serif;
+}
+
+p1, .endlessCheckBox {
+  display: inline;
+  font-size: 20pt;
+  font-weight: 500;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#startBtn,
+#stopBtn {
+  font-size: 16pt;
+  font-weight: 500;
+  background: white;
+}
+
+#livesText {
+  margin-left: 10px;
+}
+
+#levelText, .endlessCheckBox {
+  margin-left: 9%;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+#button1 {
+  background: #ff6666;
+}
+#button1:active,
+#button1.lit {
+  background: #cc0000;
+}
+
+#button2 {
+  background: #66ff66;
+}
+#button2:active,
+#button2.lit {
+  background: #00b200;
+}
+
+#button3 {
+  background: #6666ff;
+}
+#button3:active,
+#button3.lit {
+  background: #0000cc;
+}
+
+#button4 {
+  background: yellow;
+}
+#button4:active,
+#button4.lit {
+  background: orange;
+}
+
+#button5 {
+  background: #a9c8df;
+}
+#button5:active,
+#button5.lit {
+  background: #4c8cbc;
+}
+
+#button6 {
+  background: #ffc0cb;
+}
+#button6:active,
+#button6.lit {
+  background: #ff375a;
+}
+
+#button7 {
+  background: #26ff8a;
+}
+#button7:active,
+#button7.lit {
+  background: #00a64c;
+}
+
+#button8 {
+  background: #003292;
+}
+#button8:active,
+#button8.lit {
+  background: #00084e;
+}
+
+#button9 {
+  background: #d56b55;
+}
+#button9:active,
+#button9.lit {
+  background: #8f1800;
+}
+
+.scoreBoard{
+  margin: 20px 0 0 0;
+  height: 600px;
+}
+
+#scoreBoard li{
+  list-style-type: none;
+  font-size: 16pt;
+  font-weight: 400;
+}
+
+.hidden {
+  display: none;
+}
