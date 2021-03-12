@@ -41,6 +41,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
 ![normal win gif](https://cdn.glitch.com/f67249c3-c75e-4de5-b7d5-17253ddfae4a%2Fgif1.gif?v=1615584888617)
 ![normal lose gif](https://cdn.glitch.com/f67249c3-c75e-4de5-b7d5-17253ddfae4a%2Fgif2.gif?v=1615584888707)
 ![endless gif](https://cdn.glitch.com/f67249c3-c75e-4de5-b7d5-17253ddfae4a%2Fgif3.gif?v=1615584888691)
