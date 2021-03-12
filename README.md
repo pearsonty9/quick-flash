@@ -6,7 +6,7 @@ Submitted by: **Tyler Pearson**
 
 Time spent: **4** hours spent in total
 
-Link to project: https://glitch.com/edit/#!/simon-says-memory-game
+Link to project: https://glitch.com/edit/#!/quickflash-memory-game
 
 ## Required Functionality
 
